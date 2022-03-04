@@ -1,7 +1,7 @@
 # parseWEEDS
 CWEEDS Environmental Engineering Dataset Parsing Utility
 
-This utility will parse the contents of the Canadian Weather Energy and Engineering Dataset .WY3 files into two mariadb tables.
+This utility will parse the contents of the Canadian Weather Energy and Engineering Dataset .WY3 files into two mariadb tables, 'station' and 'reading'. 
 
 WY3 files are available here from the government of Canada https://drive.google.com/drive/folders/1sJmww8PBoFmnrUQUJXb1Vc5vv3kxG-ac
 
@@ -21,7 +21,7 @@ pandas
 
 mariadb
 
-## Installation and Operation:
+## Installation:
 
 ### Install required packages:
 sudo apt install libmariadb3 libmariadb-dev
@@ -53,5 +53,11 @@ source cweeds.sql;
     "database": "cweeds",
     "directory_str": "/path/to/WY3/files"
 
-## Execute the python Script
+## Operation
 python3 parseWeeds.py
+
+## Files
+parseWeeds.py - parses WY3 files into station and reading tables
+cweeds.sql - creates database user and empty tables
+config.json - configuration file for database connection
+test.sql - carries out a test query selecting the weather stations within 100Km of Ottawa and ordering by distance ascending
