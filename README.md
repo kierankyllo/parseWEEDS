@@ -18,6 +18,10 @@ mariadb-server
 
 git
 
+wget
+
+python3
+
 ### Python 3 Packages:
 pandas
 
