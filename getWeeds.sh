@@ -26,7 +26,7 @@ rm on.zip
 
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1qQ07xBw4EXqgwqQB-SKaBrtiC2VQAXiM' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1qQ07xBw4EXqgwqQB-SKaBrtiC2VQAXiM" -O nu.zip && rm -rf /tmp/cookies.txt
 unzip -j nu.zip
-rm ny.zip
+rm nu.zip
 
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1rMhzFSa-neXBIGJegIXcWUF1DhRJegMG' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1rMhzFSa-neXBIGJegIXcWUF1DhRJegMG" -O nt.zip && rm -rf /tmp/cookies.txt
 unzip -j nt.zip
