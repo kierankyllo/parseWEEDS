@@ -1,4 +1,6 @@
 GCP:
 image = 'ubuntu-pro-2004-focal-v20220204' 
 machine type = with 'e2-custom-4-8192'
-elapsed time = 
+disk type = 'persistent SSD'
+WY3 fetch = 1m 12.7s
+WY3 parse = 99m 58.796s  
