@@ -16,6 +16,8 @@ libmariadb-dev
 
 mariadb-server
 
+git
+
 ### Python 3 Packages:
 pandas
 
@@ -24,17 +26,19 @@ mariadb
 ## Installation:
 
 ### Install required packages:
-sudo apt install libmariadb3 libmariadb-dev
+sudo apt install libmariadb3 libmariadb-dev git
 
 sudo apt install mariadb-server
 
 ### If using WSL locally
 sudo /etc/init.d/mysql start
 
-### Install mariadb server
+### Run mysql secure installation
 sudo mysql_secure_installation
 
 ### Copy repository files
+mkdir parseWeeds
+git clone https://github.com/kierankyllo/parseWEEDS.git
 
 ### Edit cweeds.sql to add your custom password for the database
 
