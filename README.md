@@ -78,3 +78,5 @@ cweeds.sql - creates database user and empty tables
 config.json - configuration file for database connection
 
 test.sql - carries out a test query selecting the weather stations within 100Km of Ottawa and ordering by distance ascending
+
+test - time performance testing results
