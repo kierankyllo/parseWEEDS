@@ -1,0 +1,4 @@
+GCP:
+image = 'ubuntu-pro-2004-focal-v20220204' 
+machine type = with 'e2-custom-4-8192'
+elapsed time = 
