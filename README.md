@@ -8,7 +8,7 @@ WY3 files are available here from the government of Canada https://drive.google.
 All WY3 files must be located in the same folder to be correctly parsed. One folder for all .WY3 files adjacent to the repository files is ideal.
 
 ## VM Requirements:
-Ubuntu Linux 20.04.4 LTS, 4GB RAM
+Ubuntu Linux 20.04.4 LTS, 4GB RAM, 20GB Disk Space
 
 libmariadb3
 
