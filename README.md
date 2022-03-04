@@ -64,7 +64,12 @@ exit;
 python3 parseWeeds.py
 
 ## Files
+getWeeds.sh - bash script to pull down the WY3 data to local
+
 parseWeeds.py - parses WY3 files into station and reading tables
+
 cweeds.sql - creates database user and empty tables
+
 config.json - configuration file for database connection
+
 test.sql - carries out a test query selecting the weather stations within 100Km of Ottawa and ordering by distance ascending
