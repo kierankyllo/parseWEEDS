@@ -26,9 +26,7 @@ mariadb
 ## Installation:
 
 ### Install required packages:
-sudo apt install libmariadb3 libmariadb-dev git
-
-sudo apt install mariadb-server
+sudo apt install libmariadb3 libmariadb-dev git python3-pip python3 mariadb-server wget
 
 ### If using WSL locally
 sudo /etc/init.d/mysql start
@@ -39,18 +37,18 @@ sudo mysql_secure_installation
 ### Copy repository files
 git clone https://github.com/kierankyllo/parseWEEDS.git
 
-### Edit cweeds.sql to add your custom password for the database
-
+### Edit following line in the cweeds.sql file to add your custom password for the database
 CREATE USER 'agent'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 
 ### Login to the database and run the setup query file
-mysql
+sudo mysql
 source cweeds.sql;
+exit;
 
 ### Edit config.json file to add your custom password for the database 
 
     "user": "agent",
-    "password": "PASS",
+    "password": "YOUR_PASSWORD_HERE",
     "host": "localhost",
     "port": 3306,
     "database": "cweeds",
