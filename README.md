@@ -30,7 +30,7 @@ mariadb
 ## Installation:
 
 ### Install required packages:
-sudo apt install libmariadb3 libmariadb-dev git python3-pip python3 mariadb-server wget
+sudo apt install libmariadb3 libmariadb-dev git python3-pip python3 mariadb-server wget unzip
 
 ### If using WSL locally
 sudo /etc/init.d/mysql start
@@ -46,7 +46,9 @@ CREATE USER 'agent'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 
 ### Login to the database and run the setup query file
 sudo mysql
+
 source cweeds.sql;
+
 exit;
 
 ### Edit config.json file to add your custom password for the database 
@@ -61,7 +63,7 @@ exit;
 ## Operation
 
 ### Download and extract the WY3 files
-getWeeds.sh
+./getWeeds.sh
 
 ### Execute the parsing script
 python3 parseWeeds.py
