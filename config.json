@@ -1,0 +1,8 @@
+{
+    "user": "agent",
+    "password": "YOUR_PASSWORD_HERE",
+    "host": "localhost",
+    "port": 3306,
+    "database": "cweeds",
+    "directory_str": "/path/to/WY3/files"
+}
