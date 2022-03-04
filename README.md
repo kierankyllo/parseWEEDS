@@ -37,7 +37,6 @@ sudo /etc/init.d/mysql start
 sudo mysql_secure_installation
 
 ### Copy repository files
-mkdir parseWeeds
 git clone https://github.com/kierankyllo/parseWEEDS.git
 
 ### Edit cweeds.sql to add your custom password for the database
