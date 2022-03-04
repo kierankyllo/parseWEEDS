@@ -1,11 +1,9 @@
 # parseWEEDS
 CWEEDS Environmental Engineering Dataset Parsing Utility
 
-This utility will parse the contents of the Canadian Weather Energy and Engineering Dataset .WY3 files into two mariadb tables, 'station' and 'reading'. 
+This utility will download and parse the contents of the Canadian Weather Energy and Engineering Dataset .WY3 files into two mariadb tables, 'station' and 'reading'. 
 
 WY3 files are available here from the government of Canada https://drive.google.com/drive/folders/1sJmww8PBoFmnrUQUJXb1Vc5vv3kxG-ac
-
-All WY3 files must be located in the same folder to be correctly parsed. One folder for all .WY3 files adjacent to the repository files is ideal.
 
 ## VM Requirements:
 Ubuntu Linux 20.04.4 LTS, 4GB RAM, 20GB Disk Space
