@@ -1,4 +1,4 @@
-CREATE USER 'agent'@'localhost' IDENTIFIED BY 'DevSt)iC';
+CREATE USER 'agent'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 
 CREATE DATABASE cweeds;
 
