@@ -61,6 +61,11 @@ exit;
     "directory_str": "/path/to/WY3/files"
 
 ## Operation
+
+### Download and extract the WY3 files
+getWeeds.sh
+
+### Execute the parsing script
 python3 parseWeeds.py
 
 ## Files
